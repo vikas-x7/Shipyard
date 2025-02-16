@@ -9,15 +9,15 @@ function Navbar() {
       <div className="grid gap-3">
         <div className="h-9 bg-[#B60AE3] rounded-[5px] flex items-center overflow-hidden">
           <p className="ticker-text text-white font-semibold text-[12px] flex gap-50">
-            <span className="flex items-center gap-1">
+            <span className="flex items-center gap-1 hover:underline cursor-pointer">
               The future of brand operations is here: Watch the latest product
               keynote <FaArrowRight />
             </span>
-            <span className="flex items-center gap-1">
+            <span className="flex items-center gap-1 hover:underline cursor-pointer">
               The future of brand operations is here: Watch the latest product
               keynote <FaArrowRight />
             </span>
-            <span className="flex items-center gap-1">
+            <span className="flex items-center gap-1 hover:underline cursor-pointer">
               The future of brand operations is here: Watch the latest product
               keynote <FaArrowRight />
             </span>
