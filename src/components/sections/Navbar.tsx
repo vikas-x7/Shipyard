@@ -24,7 +24,7 @@ function Navbar() {
           </p>
         </div>
 
-        <div className="bg-[#B8B8B4] rounded-[5px] flex items-center justify-between py-7 h-10">
+        <div className="bg-[#B8B8B4] text-black rounded-[5px] flex items-center justify-between py-7 h-10">
           <div className="flex items-center gap-9 pl-6 ">
             <Link href="/" className="text-[30px]">
               <BiScatterChart />

@@ -1,11 +1,8 @@
-
 .ticker-text {
   white-space: nowrap;
-  padding-left: 100%;
-  animation: marquee 70s linear infinite;
+  padding-left: 10%;
+  animation: marquee 80s linear infinite;
 }
-
-
 
 @keyframes marquee {
   0% {
