@@ -2,9 +2,9 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="relative h-screen bg-[#101010] overflow-hidden">
+    <div className="relative w-full h-screen overflow-hidden bg-[#101010]">
       <video
-        className="absolute inset-0 w-full h-full object-cover z-0"
+        className="fixed w-full h-[88%] object-cover z-0"
         preload="metadata"
         muted
         loop
@@ -13,9 +13,9 @@ function Hero() {
         src="https://res.cloudinary.com/dyv9kenuj/video/upload/v1770732487/22d7fbc7-2c17a5b1_yw79vd.mp4"
       />
 
-      <div className="relative z-10 flex items-center justify-between h-full text-white">
+      <div className="relative z-10 flex mt-50 justify-between h-full text-white">
         <div>
-          <h1 className="text-6xl">
+          <h1 className="text-6xl p-4">
             Own every <br /> moment
           </h1>
         </div>

@@ -6,7 +6,7 @@ import { FaArrowRight } from "react-icons/fa";
 function Navbar() {
   return (
     <>
-      <div className="grid gap-3">
+      <div className="grid gap-3 p-4">
         <div className="h-9 bg-[#B60AE3] rounded-[5px] flex items-center overflow-hidden">
           <p className="ticker-text text-white font-semibold text-[12px] flex gap-50">
             <span className="flex items-center gap-1 hover:underline cursor-pointer">
@@ -24,8 +24,8 @@ function Navbar() {
           </p>
         </div>
 
-        <div className="bg-[#B8B8B4] text-black rounded-[5px] flex items-center justify-between py-7 h-10">
-          <div className="flex items-center gap-9 pl-6 ">
+        <div className=" text-black  flex items-center justify-between ">
+          <div className="flex items-center gap-9 pl-6  px-9 bg-[#B8B8B4] py-7 h-10 rounded-[5px]">
             <Link href="/" className="text-[30px]">
               <BiScatterChart />
             </Link>
@@ -34,7 +34,7 @@ function Navbar() {
             <button>Agencies</button>
           </div>
 
-          <div className="flex items-center gap-8 pr-4  ">
+          <div className="flex items-center gap-8 pr-4 px-9 bg-[#B8B8B4] py-7 h-10 rounded-[5px] ">
             <button>Pricing </button>
             <button>Eng</button>
             <button>Login</button>
