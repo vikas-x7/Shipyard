@@ -10,6 +10,55 @@ function Features() {
         </p>
         <button>Explore product overview</button>
       </div>
+      <div className="flex justify-between ">
+        <div className="text-7xl sticky">
+          <h1>DAM</h1>
+          <h1>Guidelines</h1>
+          <h1>Templates</h1>
+        </div>
+
+        <div>
+          <div>
+            <img
+              className="w-120"
+              src="https://i.pinimg.com/1200x/17/01/af/1701af3d5c48c7e1b37850042375cefb.jpg"
+              alt=""
+            />
+            <h1>Digital asset management — but better</h1>
+            <p>
+              More than just a storage solution, our DAM system helps you build
+              a <br />
+              foundation for creative collaboration and brand consistency.
+            </p>
+          </div>
+          <div>
+            <img
+              className="w-120"
+              src="https://i.pinimg.com/1200x/17/01/af/1701af3d5c48c7e1b37850042375cefb.jpg"
+              alt=""
+            />
+            <h1>Digital asset management — but better</h1>
+            <p>
+              More than just a storage solution, our DAM system helps you build
+              a <br />
+              foundation for creative collaboration and brand consistency.
+            </p>
+          </div>
+          <div>
+            <img
+              className="w-120"
+              src="https://i.pinimg.com/1200x/17/01/af/1701af3d5c48c7e1b37850042375cefb.jpg"
+              alt=""
+            />
+            <h1>Digital asset management — but better</h1>
+            <p>
+              More than just a storage solution, our DAM system helps you build
+              a <br />
+              foundation for creative collaboration and brand consistency.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
