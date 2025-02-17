@@ -2,7 +2,7 @@ import React from "react";
 
 function Intro() {
   return (
-    <div className="relative w-full  bg-black  flex py-3 pl-20 ">
+    <div className="relative w-full  bg-black  flex py-50 pl-20  ">
       <div className="mr-10">
         <h1> Own every moment</h1>
       </div>
