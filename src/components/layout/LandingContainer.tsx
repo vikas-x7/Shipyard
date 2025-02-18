@@ -2,6 +2,7 @@ import Features from "../sections/Features";
 import Hero from "../sections/Hero";
 import Intro from "../sections/Intro";
 import Process from "../sections/Process";
+import Projects from "../sections/Projects";
 import Header from "./Header";
 
 export default function LandingContainer() {
@@ -12,6 +13,7 @@ export default function LandingContainer() {
       <Intro />
       <Process />
       <Features />
+      <Projects />
     </div>
   );
 }

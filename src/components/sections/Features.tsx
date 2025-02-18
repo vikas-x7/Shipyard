@@ -18,8 +18,8 @@ function Features() {
           <h1>Templates</h1>
         </div>
 
-        <div>
-          <div className="max-w-6xl  overflow-hidden bg-[#f6f5f1] border p-3">
+        <div className="flex flex-col gap-y-7">
+          <div className="max-w-6xl  overflow-hidden bg-[#f6f5f1] border p-3 ">
             <div className="relative rounded-xl overflow-hidden">
               <img
                 className="w-full h-125 object-cover"
