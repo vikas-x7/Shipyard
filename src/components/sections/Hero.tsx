@@ -2,7 +2,7 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="relative w-full h-screen pt-17 overflow-hidden bg-[#101010]">
+    <div className="relative w-full h-screen  overflow-hidden bg-[#101010]">
       <video
         className="fixed w-full h-full object-cover z-0"
         preload="metadata"
