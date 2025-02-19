@@ -1,4 +1,5 @@
 import Features from "../sections/Features";
+import Footer from "./Footer";
 import Hero from "../sections/Hero";
 import Intro from "../sections/Intro";
 import Process from "../sections/Process";
@@ -18,6 +19,7 @@ export default function LandingContainer() {
       <Projects />
       <Testimonials />
       <Stats />
+      <Footer />
     </div>
   );
 }
