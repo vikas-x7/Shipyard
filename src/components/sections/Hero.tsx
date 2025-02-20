@@ -15,7 +15,7 @@ function Hero() {
 
       <div className="relative z-10 flex items-center justify-between h-full text-white">
         <div>
-          <h1 className="text-6xl p-4">
+          <h1 className="text-6xl p-4 font-tomorrow">
             Own every <br /> moment
           </h1>
         </div>

@@ -59,7 +59,7 @@ function Features() {
             <div className="relative rounded-xl overflow-hidden">
               <img
                 className="w-full h-125 object-cover"
-                src="https://i.pinimg.com/1200x/17/01/af/1701af3d5c48c7e1b37850042375cefb.jpg"
+                src="https://i.pinimg.com/1200x/74/03/43/740343b04d3be26544d6b5eea89afb8e.jpg"
                 alt=""
               />
 

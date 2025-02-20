@@ -3,3 +3,7 @@
 
 
 
+@theme inline {
+    --font-outfit :var(--font-outfit);
+    --font-tomorrow: var(--font-tomorrow)
+}

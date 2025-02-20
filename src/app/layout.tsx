@@ -1,5 +1,17 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { Outfit, Tomorrow } from "next/font/google";
+
+const outfit = Outfit({
+  subsets: ["latin"],
+  variable: "--font-outfit",
+});
+
+const tomorrow = Tomorrow({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-tomorrow",
+});
 
 export const metadata: Metadata = {
   title: "Shipyard",
@@ -13,7 +25,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`antialiased`}>{children}</body>
+      <body className={`${outfit.variable} ${tomorrow.variable}`}>
+        {children}
+      </body>
     </html>
   );
 }
