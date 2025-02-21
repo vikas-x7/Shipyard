@@ -15,7 +15,7 @@ function Hero() {
   const blur = useTransform(
     scrollYProgress,
     [0, 0.5],
-    ["blur(0px)", "blur(100px)"],
+    ["blur(0px)", "blur(200px)"],
   );
 
   const textOpacity = useTransform(scrollYProgress, [0, 0], [1, 0]);

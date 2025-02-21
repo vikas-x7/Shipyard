@@ -11,7 +11,7 @@ function Navbar() {
   ];
   return (
     <>
-      <div className="grid gap-3 p-4 px-7 font-outfit bg-black">
+      <div className="grid gap-3 p-4 px-7 font-outfit bg-[#101010]">
         <div className="h-9 bg-[#B60AE3] rounded-md overflow-hidden flex items-center">
           <div className="flex whitespace-nowrap animate-marquee gap-x-50">
             {[...items, ...items].map((text, i) => (
