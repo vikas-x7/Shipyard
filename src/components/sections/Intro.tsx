@@ -1,12 +1,16 @@
 import React from "react";
+import { GoDotFill } from "react-icons/go";
 
 function Intro() {
   return (
-    <div className="relative w-full h-screen flex pl-20 z-90 bg-transparent">
-      <div className="mr-10 text-white">
-        <h1>Own every moment</h1>
+    <div className="relative w-full h-[150vh] flex pl-20 z-90 bg-transparent">
+      <div className="mr-10 text-white/90 text-[20px]">
+        <div className="flex items-center font-outfit">
+          <GoDotFill />
+          <h1>Own every moment</h1>
+        </div>
       </div>
-      <div className="w-4xl text-4xl flex flex-col gap-y-7 text-white">
+      <div className="w-5xl text-[45px] leading-12 flex flex-col gap-y-7 text-[#898985] font-tomorrow">
         <div>
           <h1>
             A brand is made of countless moments: a glance up, a scroll down, a

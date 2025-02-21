@@ -1,10 +1,11 @@
 "use client";
 
 import { motion, useScroll, useTransform } from "motion/react";
-import { useRef } from "react";
+import { useRef, useEffect, useState } from "react";
 
 function Hero() {
   const ref = useRef(null);
+  const [hasScrolled, setHasScrolled] = useState(false);
 
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -13,17 +14,23 @@ function Hero() {
 
   const blur = useTransform(
     scrollYProgress,
-    [0, 1],
+    [0, 0.5],
     ["blur(0px)", "blur(100px)"],
   );
 
   const textOpacity = useTransform(scrollYProgress, [0, 0], [1, 0]);
 
-  const backgroundColor = useTransform(
-    scrollYProgress,
-    [0, 3],
-    ["rgba(0, 0, 0, 0)", "#262624"],
-  );
+  useEffect(() => {
+    const unsubscribe = scrollYProgress.on("change", (latest) => {
+      if (latest > 0.01) {
+        setHasScrolled(true);
+      } else {
+        setHasScrolled(false);
+      }
+    });
+
+    return () => unsubscribe();
+  }, [scrollYProgress]);
 
   return (
     <>
@@ -40,15 +47,14 @@ function Hero() {
           src="https://res.cloudinary.com/dyv9kenuj/video/upload/v1770732487/22d7fbc7-2c17a5b1_yw79vd.mp4"
         />
 
-        {/* Content layer */}
-        <motion.div
-          style={{ backgroundColor }}
-          className="relative z-100 flex items-center justify-between h-full text-white"
+        <div
+          style={{
+            backgroundColor: hasScrolled ? "#262624be" : "transparent",
+            transition: "background-color 0.3s ease",
+          }}
+          className="relative z-100 flex items-center justify-between h-full text-white bg-[#262624be]"
         >
-          <motion.div
-            style={{ opacity: textOpacity }}
-            transition={{ duration: 0.5, ease: "easeInOut" }}
-          >
+          <motion.div style={{ opacity: textOpacity }}>
             <h1 className="text-6xl p-7 font-tomorrow">
               Own every <br /> moment
             </h1>
@@ -56,8 +62,7 @@ function Hero() {
 
           <motion.div
             style={{ opacity: textOpacity }}
-            className="max-w-85 text-justify p-7 mr-15"
-            transition={{ duration: 0.5, ease: "easeInOut" }}
+            className="max-w-85 text-justify p-7 mr-15 font-outfit"
           >
             <p>
               The Frontify DAM simplifies brand workflows so marketing teams can
@@ -73,7 +78,7 @@ function Hero() {
               </button>
             </div>
           </motion.div>
-        </motion.div>
+        </div>
       </section>
 
       <section className="h-screen bg-black" />
