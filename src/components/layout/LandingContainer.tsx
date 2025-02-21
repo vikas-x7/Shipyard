@@ -10,7 +10,7 @@ import Header from "./Header";
 
 export default function LandingContainer() {
   return (
-    <div className="w-full text-white bg-[#101010]">
+    <div className="w-full bg-black ">
       <Header />
       <Hero />
       <Intro />
