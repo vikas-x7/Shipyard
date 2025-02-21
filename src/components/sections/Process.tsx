@@ -2,7 +2,7 @@ import React from "react";
 import { CiLock } from "react-icons/ci";
 import { GoDotFill } from "react-icons/go";
 import { IoExtensionPuzzleOutline } from "react-icons/io5";
-import { LuBlocks, LuBoxes } from "react-icons/lu";
+import { LuBlocks } from "react-icons/lu";
 
 function Process() {
   const items = [

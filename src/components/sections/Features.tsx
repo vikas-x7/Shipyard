@@ -1,15 +1,22 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
+import { GoDotFill } from "react-icons/go";
+import { IoIosArrowRoundForward } from "react-icons/io";
 
 function Features() {
   return (
-    <div className="bg-[#f6f5f1] relative text-black">
-      <div className="p-4">
-        <h1>Features </h1>
-        <p className="text-8xl">
-          Scale your brand with <br /> powerful tools — all <br /> in one place
+    <div className="bg-[#F0F0EB] relative p-7 py-10 font-outfit">
+      <div className=" py-30">
+        <h1 className=" flex text-md">
+          <GoDotFill size={23} />
+          Features
+        </h1>
+        <p className="text-8xl mt-6 font-tomorrow">
+          Scale your brand with <br /> powerful tools — all in <br /> one place
         </p>
-        <button>Explore product overview</button>
+        <button className="mt-10 flex items-center ">
+          Explore product overview <IoIosArrowRoundForward size={30} />
+        </button>
       </div>
       <div className="flex justify-between p-4 ">
         <div className="text-7xl sticky top-24 self-start w-4xl">
