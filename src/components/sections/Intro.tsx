@@ -26,7 +26,7 @@ function Intro() {
         </div>
       </div>
 
-      <div className="w-5xl text-[45px] leading-12 flex flex-col gap-y-7 text-[#898985] font-tomorrow">
+      <div className="w-5xl text-[40px] leading-12 flex flex-col gap-y-7 text-white/90 font-playfairDisplay [word-spacing:4px]">
         {paragraphs.map((text, index) => (
           <div key={index}>
             <h1>{text}</h1>

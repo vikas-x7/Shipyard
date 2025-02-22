@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Outfit, Tomorrow } from "next/font/google";
+import { Outfit, Tomorrow, Playfair_Display } from "next/font/google";
 
 const outfit = Outfit({
   subsets: ["latin"],
@@ -11,6 +11,11 @@ const tomorrow = Tomorrow({
   weight: "400",
   subsets: ["latin"],
   variable: "--font-tomorrow",
+});
+
+const playfairDisplay = Playfair_Display({
+  subsets: ["latin"],
+  variable: "--font-playfairDisplay",
 });
 
 export const metadata: Metadata = {
@@ -25,7 +30,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${outfit.variable} ${tomorrow.variable}`}>
+      <body
+        className={`${outfit.variable} ${tomorrow.variable} ${playfairDisplay.variable}`}
+      >
         {children}
       </body>
     </html>

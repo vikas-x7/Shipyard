@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="bg-[#0b0b0b] text-white px-16 py-24 relative">
+    <div className="bg-[#0b0b0b] text-white px-7 py-24 relative">
       <div className="text-lg font-serif mb-16">
         Brand news straight to your inbox:
       </div>

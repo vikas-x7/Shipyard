@@ -4,6 +4,7 @@
 
 
 @theme inline {
-    --font-outfit :var(--font-outfit);
-    --font-tomorrow: var(--font-tomorrow)
+    --font-outfit: var(--font-outfit);
+    --font-tomorrow: var(--font-tomorrow);
+    --font-playfairDisplay: var(--font-playfairDisplay); 
 }
