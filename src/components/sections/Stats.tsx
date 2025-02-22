@@ -3,7 +3,7 @@ import React from "react";
 
 function Stats() {
   return (
-    <div className="bg-[#f6f5f1] text-black px-16 py-24 relative">
+    <div className="bg-[#F0F0EB] text-black relative ">
       <img
         src="https://media.ffycdn.net/eu/weare/YF1sAKAunuZPqu8bTMqL.png?mod=v1/max=2400"
         alt=""
@@ -12,14 +12,8 @@ function Stats() {
         src="https://media.ffycdn.net/eu/weare/YVpWBRf2GQC3UVkKPuGW.gif"
         alt=""
       />
-      <div className="text-sm flex items-center gap-2 mb-20 cursor-pointer">
-        <span>Explore all resources</span>
-        <span>→</span>
-      </div>
 
-      <div className="border-t border-black/80 mb-20"></div>
-
-      <div className="grid grid-cols-12 gap-8 items-start">
+      <div className="grid grid-cols-12 gap-8 items-start mt-50 pb-23 px-4">
         <div className="col-span-7">
           <div className="text-[110px] leading-[0.95] font-serif">
             Amplify your <br /> brand vision

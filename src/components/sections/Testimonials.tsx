@@ -2,20 +2,20 @@ import React from "react";
 
 function Testimonials() {
   return (
-    <div className="relative bg-white text-black">
-      <div>
+    <div className="relative bg-[#F0F0EB] text-black font-outfit px-9">
+      <div className="flex flex-col gap-y-9">
         <h1>Testimonials</h1>
-        <p className="text-8xl">
+        <p className="text-8xl font-serif">
           Real stories and <br /> remarkable results
         </p>
-        <button>Browse all customer stories</button>
+        <p>Browse all customer stories</p>
       </div>
 
-      <div>
-        <div className="bg-[#f6f5f1] px-12 py-20">
+      <div className="py-9">
+        <div className="bg-[#F0F0EB] ">
           <div className="grid grid-cols-2 gap-10">
             {/* LEFT CARD */}
-            <div className="bg-[#e9e8e3] rounded-2xl p-8 flex flex-col justify-between">
+            <div className="bg-[#E1E1DB] rounded-2xl p-8 flex flex-col justify-between">
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-2 text-sm">
                   <span className="w-2 h-2 bg-black rounded-full"></span>
@@ -34,7 +34,7 @@ function Testimonials() {
             </div>
 
             {/* RIGHT CARD */}
-            <div className="bg-[#e9e8e3] rounded-2xl p-12 flex flex-col justify-between">
+            <div className="bg-[#E1E1DB] rounded-2xl p-12 flex flex-col justify-between">
               <div className="flex items-center gap-2 font-semibold">
                 <span>☀️</span>
                 <span>Skyscanner</span>
@@ -54,7 +54,7 @@ function Testimonials() {
           </div>
         </div>
 
-        <div className="bg-[#f6f5f1] px-12 py-20">
+        <div className="bg-[#F0F0EB] mt-9 ">
           <div className="grid grid-cols-3 gap-6">
             {/* CARD 1 */}
             <div className="bg-[#e9e8e3] rounded-2xl p-8 flex flex-col justify-between">
