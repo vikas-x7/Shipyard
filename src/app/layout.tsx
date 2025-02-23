@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Outfit, Tomorrow, Playfair_Display } from "next/font/google";
+import { Outfit, Tomorrow, Cormorant } from "next/font/google";
 
 const outfit = Outfit({
   subsets: ["latin"],
@@ -13,7 +13,8 @@ const tomorrow = Tomorrow({
   variable: "--font-tomorrow",
 });
 
-const playfairDisplay = Playfair_Display({
+const playfairDisplay = Cormorant({
+  weight: "500",
   subsets: ["latin"],
   variable: "--font-playfairDisplay",
 });

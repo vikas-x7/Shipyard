@@ -36,7 +36,7 @@ function Features() {
           Features
         </h1>
 
-        <p className="text-8xl mt-6 font-tomorrow">
+        <p className="text-8xl mt-6 font-playfairDisplay">
           Scale your brand with <br /> powerful tools — all in <br /> one place
         </p>
 
@@ -46,7 +46,7 @@ function Features() {
       </div>
 
       <div className="flex justify-between p-4">
-        <div className="text-7xl sticky top-24 self-start w-4xl text-black/20 font-serif">
+        <div className="text-7xl sticky top-24 self-start w-4xl text-black/20 font-playfairDisplay">
           <h1>DAM</h1>
           <h1>Guidelines</h1>
           <h1>Templates</h1>
