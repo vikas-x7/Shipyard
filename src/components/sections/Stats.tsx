@@ -13,14 +13,14 @@ function Stats() {
         alt=""
       />
 
-      <div className="grid grid-cols-12 gap-8 items-start mt-50 pb-23 px-4">
-        <div className="col-span-7">
-          <div className="text-[110px] leading-[0.95] font-serif">
+      <div className="flex flex-col md:grid md:grid-cols-12 gap-8 items-start mt-20 md:mt-50 pb-23 px-4">
+        <div className="w-full md:col-span-7">
+          <div className="text-5xl md:text-[110px] leading-[0.95] font-serif">
             Amplify your <br /> brand vision
           </div>
         </div>
 
-        <div className="col-span-5 flex flex-col gap-6 pt-6">
+        <div className="w-full md:col-span-5 flex flex-col gap-6 pt-6">
           <div className="text-lg leading-relaxed max-w-md">
             Drive brand consistency, collaboration, and efficiency — with
             Frontify.

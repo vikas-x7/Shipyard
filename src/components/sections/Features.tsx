@@ -29,14 +29,14 @@ function Features() {
   ];
 
   return (
-    <div className="bg-[#F0F0EB] relative p-7 py-10 font-outfit">
-      <div className="py-30">
+    <div className="bg-[#F0F0EB] relative p-4 py-8 md:p-7 md:py-10 font-outfit">
+      <div className="py-10 md:py-30">
         <h1 className="flex text-md">
           <GoDotFill size={23} />
           Features
         </h1>
 
-        <p className="text-8xl mt-6 font-playfairDisplay">
+        <p className="text-4xl md:text-8xl mt-6 font-playfairDisplay">
           Scale your brand with <br /> powerful tools — all in <br /> one place
         </p>
 
@@ -45,8 +45,8 @@ function Features() {
         </button>
       </div>
 
-      <div className="flex justify-between p-4">
-        <div className="text-7xl sticky top-24 self-start w-4xl text-black/20 font-playfairDisplay">
+      <div className="flex flex-col md:flex-row justify-between p-4 px-0 md:p-4">
+        <div className="text-4xl md:text-7xl static md:sticky top-24 self-auto md:self-start w-full md:w-4xl text-black/20 font-playfairDisplay mb-8 md:mb-0">
           <h1>DAM</h1>
           <h1>Guidelines</h1>
           <h1>Templates</h1>
@@ -56,10 +56,10 @@ function Features() {
           {features.map((item, index) => (
             <div
               key={index}
-              className="max-w-6xl overflow-hidden  border border-black/10 p-5 rounded-xl"
+              className="w-full max-w-6xl overflow-hidden  border border-black/10 p-5 rounded-xl"
             >
-              <div className="relative overflow-hidden  p-10 bg-[#C4C4C4] flex items-center justify-center rounded-2xl">
-                <img className="w-90 object-cover r" src={item.image} alt="" />
+              <div className="relative overflow-hidden  p-4 md:p-10 bg-[#C4C4C4] flex items-center justify-center rounded-2xl">
+                <img className="w-full max-w-md object-cover r" src={item.image} alt="" />
               </div>
 
               <div className="px-2 pt-6 space-y-3">

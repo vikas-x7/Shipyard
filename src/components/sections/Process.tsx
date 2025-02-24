@@ -43,8 +43,8 @@ function Process() {
         </h1>
       </div>
 
-      <div className="px-7 ">
-        <div className="grid grid-cols-3 gap-10  border-b border-black/80 py-28">
+      <div className="px-4 md:px-7 ">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10  border-b border-black/80 py-10 md:py-28">
           {items.map((item, index) => (
             <div key={index} className="px-3 ">
               <div className="w-10 h-10 mb-7 rounded-lg bg-black/5 flex items-center justify-center">

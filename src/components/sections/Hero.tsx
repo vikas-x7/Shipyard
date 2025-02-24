@@ -52,24 +52,24 @@ function Hero() {
             backgroundColor: hasScrolled ? "#262624be" : "transparent",
             transition: "background-color 0.3s ease",
           }}
-          className="relative z-100 flex items-center justify-between h-full text-white bg-[#262624be]"
+          className="relative z-100 flex flex-col md:flex-row items-center justify-center md:justify-between h-full text-white bg-[#262624be]"
         >
-          <motion.div style={{ opacity: textOpacity }}>
-            <h1 className="text-6xl p-7 font-tomorrow">
+          <motion.div style={{ opacity: textOpacity }} className="w-full text-center md:text-left mt-20 md:mt-0">
+            <h1 className="text-4xl md:text-6xl p-4 md:p-7 font-tomorrow">
               Own every <br /> moment
             </h1>
           </motion.div>
 
           <motion.div
             style={{ opacity: textOpacity }}
-            className="max-w-85 text-justify p-7 mr-15 font-outfit"
+            className="w-full max-w-full md:max-w-85 text-center md:text-justify p-4 md:p-7 md:mr-15 font-outfit"
           >
-            <p>
+            <p className="text-sm md:text-base">
               The Frontify DAM simplifies brand workflows so marketing teams can
               deliver engaging experiences on a global scale fast.
             </p>
 
-            <div className="mt-4 flex gap-3">
+            <div className="mt-4 flex gap-3 justify-center md:justify-start">
               <button className="px-4 py-2 bg-white text-black rounded-full">
                 Book demo
               </button>

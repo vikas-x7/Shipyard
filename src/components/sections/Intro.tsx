@@ -18,15 +18,15 @@ function Intro() {
   ];
 
   return (
-    <div className="relative w-full h-[150vh] flex pl-20 z-90 bg-transparent">
-      <div className="mr-10 text-white/90">
+    <div className="relative w-full min-h-screen flex flex-col md:flex-row pl-4 md:pl-20 z-90 bg-transparent pt-20 md:pt-0">
+      <div className="mr-0 md:mr-10 text-white/90 mb-8 md:mb-0">
         <div className="flex items-center font-outfit">
           <GoDotFill />
           <h1>Own every moment</h1>
         </div>
       </div>
 
-      <div className="w-4xl text-[49px] normal-case leading-12 flex flex-col gap-y-7 text-white/90 font-playfairDisplay [word-spacing:-2px]">
+      <div className="w-full max-w-4xl text-3xl md:text-[49px] normal-case leading-snug md:leading-12 flex flex-col gap-y-7 text-white/90 font-playfairDisplay [word-spacing:-2px] px-4 md:px-0">
         {paragraphs.map((text, index) => (
           <div key={index}>
             <h1>{text}</h1>
