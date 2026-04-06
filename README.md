@@ -1,36 +1,96 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Shipyard
 
-## Getting Started
+Shipyard is a frontend-focused web application built with Next.js. The project focuses on building modern, responsive, and user interfaces using component-based architecture and clean project structure.
 
-First, run the development server:
+---
+
+<img src="https://res.cloudinary.com/dyv9kenuj/image/upload/q_auto/f_auto/v1775499729/Screenshot_from_2026-04-06_23-51-52_wpcoyn.png" alt="Dashboard" width="full"/>
+
+## ✨ Features
+
+* Responsive UI
+* Modern layout and design
+* Component-based architecture
+* Reusable UI components
+* API integration
+* Form handling
+* Loading states
+* Error handling
+* Clean folder structure
+* Modular architecture
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+* React Icons
+
+### Tools
+
+* ESLint
+* PostCSS
+* Bun / npm
+* Git
+
+---
+
+## 📦 Installation
+
+Clone the repository:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/your-username/shipyard.git
+cd shipyard
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Install dependencies:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Run development server:
 
-## Learn More
+```bash
+npm dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+Build for production:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Start production server:
 
-## Deploy on Vercel
+```bash
+npm start
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+
+##  Contributing
+
+If you would like to contribute:
+
+1. Fork the repository
+2. Clone your fork
+3. Create a new branch
+4. Make your changes
+5. Commit and push
+6. Create a Pull Request
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
